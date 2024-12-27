@@ -8,6 +8,7 @@
 // @version     1.4
 // @author      Fox <https://github.com/f-o>
 // @description Script to help solve Jigidi puzzles, by rendering columns in a colourful grid gradient, and marking each piece with numbers.
+// @license MIT
 // ==/UserScript==
 
 (function () {

@@ -92,7 +92,7 @@
 ## Acknowledgements
 This script would not have been possible without the fantastic mind of [Dan Q](https://github.com/dan-q).<br>
 He has created a multitude of Jigidi scripts, constantly trying to perfect the art of solving puzzles (for coordinates 😉).<br>
-You can still find [his original script](https://gist.github.com/Dan-Q/b5e4dbb45851b07042b6a57ebe1005a7), as well as [his other "Jigidi Helper" script](https://github.com/dan-q/Jigidi-Bingo-Solver). 
+You can still find [his original script](https://gist.github.com/Dan-Q/b5e4dbb45851b07042b6a57ebe1005a7), as well as [his other "Jigidi Helper" script](https://danq.me/jigidi-helper). 
 Be sure to also check out his [YouTube channel](https://www.youtube.com/@danq) where you can watch some of his scripts in action!
 
 Also a big shout-out to everyones favourite LLM - ChatGPT, who has helped me immensely with this script. I'm not really a JS expert, but I was able to get this script to work with ChatGPT.

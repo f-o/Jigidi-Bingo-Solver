@@ -9,8 +9,6 @@
 
 <br>
 
-<img src="img/demo.png">
-
 <p align="center">
   <!--License-->
   <a href="https://github.com/f-o/Jigidi-Bingo-Solver/blob/master/LICENSE">
@@ -37,15 +35,15 @@
   <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
 </p>
-<!-- <div align="center">
+<div align="center">
   <img src="./img/demo.png" alt="Jigidi Bingo Solver Demo" width="800px" style="border-radius:7px;">
-</div> -->
+</div>
 
 ## Installation
 * Create a new user account at [Jigidi](https://www.jigidi.com/join.php).
 * Go to your [settings](https://www.jigidi.com/profile.php) and enable [Zen Mode](https://www.jigidi.com/a/zen-mode/).
 * Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
-* Add the userscript by clicking [here](https://github.com/f-o/Jigidi-Bingo-Solver/raw/refs/heads/main/jigidi-bingo-solver.user.js) (GitHub repo) or [here](https://greasyfork.org/en/scripts/522009-jigidi-bingo-solver) (Greasy Fork).
+* Add the userscript by clicking [here](https://greasyfork.org/en/scripts/522009-jigidi-bingo-solver) (Greasy Fork).
 
 
 ## How To Use

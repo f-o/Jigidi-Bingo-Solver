@@ -9,6 +9,8 @@
 
 <br>
 
+<img src="img/demo.png">
+
 <p align="center">
   <!--License-->
   <a href="https://github.com/f-o/Jigidi-Bingo-Solver/blob/master/LICENSE">

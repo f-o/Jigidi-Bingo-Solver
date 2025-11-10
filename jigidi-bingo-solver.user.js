@@ -7,7 +7,7 @@
 // @match       https://www.jigidi.com/*/s/*
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     1.4
+// @version     1.5
 // @author      Fox <https://github.com/f-o>
 // @description Script to help solve Jigidi puzzles, by rendering columns in a colourful grid gradient, and marking each piece with numbers.
 // @license MIT

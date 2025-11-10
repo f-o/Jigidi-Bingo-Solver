@@ -3,6 +3,8 @@
 // @namespace   to.soon.userjs.jigidi
 // @match       https://www.jigidi.com/solve*
 // @match       https://www.jigidi.com/s/*
+// @match       https://www.jigidi.com/*/solve*
+// @match       https://www.jigidi.com/*/s/*
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @version     1.4

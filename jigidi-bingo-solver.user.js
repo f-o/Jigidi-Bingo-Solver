@@ -7,7 +7,7 @@
 // @match       https://www.jigidi.com/*/s/*
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     1.5
+// @version     1.6
 // @author      Fox <https://github.com/f-o>
 // @description Script to help solve Jigidi puzzles, by rendering columns in a colourful grid gradient, and marking each piece with numbers.
 // @license MIT
@@ -66,13 +66,16 @@
     // Wait for page to load
     window.addEventListener('load', function () {
 
+        // Get puzzle name from URL
+        const puzzleNameMatch = window.location.href.match(/solve\/(\w+)\/([\w-]+)/);
+
         // If URL ends with "solve.php", get the puzzle ID from a tag under h1.puzzle-title and redirect
         if (window.location.href.endsWith('solve.php')) {
             const puzzleId = document.querySelector('h1.puzzle-title').querySelector('a').href;
             window.location.href = puzzleId.replace('https://www.jigidi.com/jigsaw-puzzle/', 'https://www.jigidi.com/solve/');
         }
         // If URL contains "/s/", get the puzzle ID from share-url and redirect
-        else if (window.location.href.includes('/s/')) {
+        else if (window.location.href.includes('/s/') || !puzzleNameMatch) {
             // Loop through all script tags and find the one containing "ShareEmbed.url"
             for (const script of document.querySelectorAll('script')) {
                 if (script.innerText.includes('ShareEmbed.url')) {

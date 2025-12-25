@@ -31,6 +31,7 @@
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#supported-urls">Supported URLs</a> •
   <a href="#faq">Frequently Asked Questions</a> •
   <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
@@ -52,6 +53,20 @@
 3. Solve each column manually.
 4. Click the button "Go +1!" to move to the next column.
 5. Repeat step 3 and 4 until you have solved all the columns.
+
+
+## Supported URLs
+This userscript has been tested on Jigidi puzzles in the following formats:
+- **Standard puzzles**
+  - https://www.jigidi.com/solve/7bu5kfx3/image-12734/
+- **Puzzles using solve.php template**
+  - https://www.jigidi.com/solve.php?id=267NOQLU
+- **Custom language puzzles**
+  - https://www.jigidi.com/es/solve/ifj9q9zu/escalera2000/
+- **Puzzles without titles**
+  - https://www.jigidi.com/solve/ysg5bosi
+
+If you find any other formats that are not supported, please [open an issue](https://github.com/f-o/Jigidi-Bingo-Solver/issues/new) to let me know.
 
 
 

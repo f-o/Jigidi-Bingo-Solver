@@ -85,9 +85,11 @@ If you find any other formats that are not supported, please [open an issue](htt
     - Sublime Vivid: Pink, purple, and blue vivid colors.
     - DanQ: An homage to [the original author](https://danq.me), who originally used this gradient in his script.
     - Instagram: A gradient of the Instagram colors.
-    - Hacker: RGB with contrasting black in between.
   - You can add custom gradients yourself, by defining them in the `gradientsArray` object in the script. Please be advised that these gradients will be overwritten when the script is updated.
   - If you have found some good gradients, and would like to have them permanently added, please [contact me](https://github.com/f-o/Jigidi-Bingo-Solver/issues/new) for more information.
+- #### Q: Why is my progress not being saved when I refresh the page?
+  - You are probably not signed in.
+  - In order for Jigidi to save your progress, you need to be signed in to your account.
 - #### Q: The numbers are really big/small, and I can't read them?
   - You can manually adjust the font size in the settings panel.
   - Alternatively you can turn them off completely, if you prefer to solve the puzzles without numbers.
@@ -109,8 +111,6 @@ This script would not have been possible without the fantastic mind of [Dan Q](h
 He has created a multitude of Jigidi scripts, constantly trying to perfect the art of solving puzzles (for coordinates 😉).<br>
 You can still find [his original script](https://gist.github.com/Dan-Q/b5e4dbb45851b07042b6a57ebe1005a7), as well as [his other "Jigidi Helper" script](https://danq.me/jigidi-helper). 
 Be sure to also check out his [YouTube channel](https://www.youtube.com/@danq) where you can watch some of his scripts in action!
-
-Also a big shout-out to everyones favourite LLM - ChatGPT, who has helped me immensely with this script. I'm not really a JS expert, but I was able to get this script to work with ChatGPT.
 
 Gradients are sourced from [uiGradients](https://uigradients.com/), [PaletteMaker.com](https://palettemaker.com/), and [MOKOLÉ.com](https://mokole.com/palette.html).
 

@@ -7,7 +7,7 @@
 // @match       https://www.jigidi.com/*/s/*
 // @grant       GM_getValue
 // @grant       GM_setValue
-// @version     1.6
+// @version     1.7
 // @author      Fox <https://github.com/f-o>
 // @description Script to help solve Jigidi puzzles, by rendering columns in a colourful grid gradient, and marking each piece with numbers.
 // @license MIT
@@ -23,8 +23,7 @@
         "Rastafari": ['#1E9600', "#FFF200", "#FF0000"],
         "Sublime Vivid": ['#FC466B', "#3F5EFB"],
         "DanQ": ['#FF0000', '#EE82EE'],
-        "Instagram": ['#833ab4', "#fd1d1d", "#fcb045"],
-        "Hacker": ['#ff0000', "#000000", "#00ff11", "#000000", "#0077ff"]
+        "Instagram": ['#833ab4', "#fd1d1d", "#fcb045"]
     }
 
     const $verbose = false;
@@ -61,6 +60,18 @@
 
         // Convert interpolated RGB components to hex format
         return '#' + [r, g, b].map(component => component.toString(16).padStart(2, '0')).join('');
+    }
+
+    // Check if we are signed in, by looking for cookies with `access-token`.
+    if (!document.cookie.split(';').some(cookie => cookie.trim().startsWith('access-token='))) {
+        if ($verbose) {
+            console.log('Not signed in, prompting user to sign in.');
+        }
+        if (confirm("To use the Bingo Solver, you need to be signed in to Jigidi. Do you want to go to the sign-in page?")) {
+            window.location.href = 'https://www.jigidi.com/login.php';
+            return;
+        }
+        return;
     }
 
     // Wait for page to load
